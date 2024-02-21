@@ -31,13 +31,18 @@
         html{
             overflow-x: hidden;
         }
+		@media screen and (max-width: 600px){
+			.cel{
+				width: 100%
+			}
+		}
     </style>
 </head>
 <div class="container-fluid">
     <body>
         <!--nav-->
         <header>
-            <nav class="navbar navbar-expand-lg background">
+            <nav class="navbar navbar-expand-lg background text-color">
                 <div class="container-fluid">
                     <a class="navbar-brand color" href="#home">SENAI</a>
                     <ul class="nav justify-content-end">
@@ -98,13 +103,13 @@
             </div>
         </div>
         <!--Sobre-->
-        <div class="background space text-color">
+        <div class="background space text-color cel">
             <div class="text-center interno">
                 <h1><a name="sobre"></a>Sobre</h1>
             </div>
             <div class="container text-center">
                 <div class="row">
-                    <div class="col space internobottom">
+                    <div class="col-xxl-6 col-sm-12 space internobottom">
                         Serviço Nacional de Aprendizagem Industrial (SENAI) é uma instituição privada brasileira de interesse público, sem fins lucrativos, com personalidade jurídica de direito privado, estando fora da administração pública. Foi apontado pela Organização das Nações Unidas (ONU) em 2014 como uma das principais instituições educacionais do Hemisfério sul. Compõe o chamado Terceiro Setor.
                         Primeira logomarca do SENAI/CNI.
                         O Serviço Nacional de Aprendizagem Industrial (SENAI) foi criado pelo decreto-lei 4.048 de 22 de janeiro de 1942.
@@ -113,7 +118,7 @@
                         sede do SENAI Pernambuco em maio de 2022.
                         Desde 2009 o SENAI, junto com o Ministério da Ciência e Tecnologia, por meio do Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq) leva para a sociedade edital para estimular possibilidades de soluções inovadoras dentro das empresas. Para apresentar os resultados dos projetos foi criado, em diferentes estados, um evento chamado de INOVA.
                     </div>
-                    <div class="col space internobottom">
+                    <div class="col-xxl-6 col-sm-12 space internobottom">
                         O SENAI, representando o Brasil, é considerado uma das melhores entidades de educação profissional do mundo segundo o presidente da World Skills, Tjerk Dusseldorp. Ele também realiza uma conexão importante do World Skills com os países da América Latina.
                         No 40° World Skills realizado no Canadá, o SENAI conquistou três medalhas de ouro, quatro de prata, duas de bronze e quatro diplomas de excelência levando o Brasil a se posicionar como o terceiro país em medalhas.
                         O SENAI conseguiu trazer para o Brasil 519,20 pontos ficando em quarto lugar no quadro geral, atrás apenas da Coreia do Sul (524,62), Suíça (520,09) e República da Irlanda (519,64).
@@ -127,10 +132,10 @@
         </div>
         <!--cursos-->
         <div class="background text-color">
-            <div class="text-center interno internobottom">
+            <div class="text-center interno internobottom cel">
                 <h1><a name="cursos"></a>Cursos</h1>
             </div>
-            <div class="row row-cols-1 row-cols-md-3 g-4 text-center padding">
+            <div class="row row-cols-1 row-cols-md-3 g-4 text-center padding cel">
                 <div class="col">
                     <div class="card">
                         <img src="./assets/img/excel.jpg" class="card-img-top h-75" alt="...">
@@ -206,7 +211,7 @@
             </div>
         </div>
         <!--dúvidas-->
-        <div class="background space padding text-color">
+        <div class="background space padding text-color cel">
             <div>
                 <h2><a name="duvidas"></a><img class="bd-placeholder-img" width="30" height="30" src="./assets/img/lightbulb.svg">Dúvidas Frequentes</h2>
             </div>
@@ -250,7 +255,7 @@
             </div>
         </div>
         <!--Footer-->
-        <footer class="background text-center text-lg-start text-white">
+        <footer class="background text-center text-lg-start text-white cel">
             <div class="text-center p-3">
                 Todos os direitos reservados
             </div>
